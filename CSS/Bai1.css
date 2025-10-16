@@ -1,0 +1,31 @@
+h1 {
+  color: red;
+  font-style: italic;
+  font-family: Arial, Helvetica, sans-serif;
+  text-transform: capitalize;
+  text-align: center;
+  font-size: 40px;
+}
+h2 {
+  /* opacity: 10%; */
+  /* display: none; */
+  background-color: blue;
+  visibility: hidden;
+}
+body {
+}
+span {
+  /* visibility: visible; */
+  /* opacity: 1; */
+  visibility: visible;
+}
+input:checked ~ img {
+  /* visibility: hidden; */
+  opacity: 0;
+}
+img {
+  transition: 1.5s;
+}
+#h2ne {
+  color: aquamarine;
+}
