@@ -9,8 +9,8 @@ h1 {
 h2 {
   /* opacity: 10%; */
   /* display: none; */
-  background-color: blue;
-  visibility: hidden;
+  /* background-color: blue;
+  visibility: hidden; */
 }
 body {
 }
@@ -28,4 +28,11 @@ img {
 }
 #h2ne {
   color: aquamarine;
+}
+* {
+  color: blue;
+  font-size: 25px;
+}
+h2.demo {
+  color: red;
 }
