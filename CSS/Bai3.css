@@ -1,0 +1,11 @@
+div {
+  width: 100px;
+  height: 100px;
+  color: yellow;
+  background-color: red;
+  /* padding: 20px; */
+  /* padding-top: 20px; */
+  padding: 10px 100px 30px;
+  padding: 100px 200px 50px 10px;
+  border: 10px solid blue;
+}
