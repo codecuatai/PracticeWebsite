@@ -1,0 +1,50 @@
+.boxx {
+  width: 200px;
+  height: 200px;
+  border: 10px solid red;
+  outline: 50px solid blue;
+  margin: 40px;
+}
+.box {
+  width: 100px;
+  height: 150px;
+  padding: 120px;
+  padding: 5px;
+  border: 50px solid red;
+  box-sizing: content-box;
+}
+.box2 {
+  width: 20px;
+  height: 350px;
+  padding: 5px;
+  box-sizing: border-box;
+}
+strong {
+  background-color: red;
+  padding: 30px;
+}
+a {
+  text-decoration: none;
+  background-color: rgb(222, 156, 167);
+  border-radius: 999px;
+  color: black;
+  display: inline-block;
+  height: 30px;
+  width: 100px;
+  padding: 8px 16px;
+  text-align: center;
+  margin-top: 30px;
+}
+a:hover {
+  background-color: black;
+  color: rgb(222, 156, 167);
+}
+h3 {
+  width: 450px;
+  height: 50px;
+  background-color: blue;
+}
+h4 {
+  width: 50%;
+  background-color: red;
+}
