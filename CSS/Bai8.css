@@ -1,0 +1,23 @@
+* {
+  font-size: 1.5rem;
+}
+
+.container {
+  display: flex;
+  background-color: cyan;
+
+  height: 10rem;
+  align-items: baseline;
+  /* flex-wrap: wrap;
+  align-content: center; */
+  flex-direction: row-reverse;
+}
+.box {
+  background-color: blue;
+  /* width: 33%; */
+  border: 1px solid black;
+}
+.box2 {
+  align-self: center;
+  flex-grow: 2;
+}

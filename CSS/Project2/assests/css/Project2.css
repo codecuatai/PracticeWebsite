@@ -1,0 +1,90 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  font-size: 1.6rem;
+  font-family: "Poppins", "sans-serif";
+}
+/* ========================common================= */
+a {
+  text-decoration: none;
+}
+
+/* ===================header======================== */
+header {
+  height: 90rem;
+  background-color: #fffcf4;
+}
+header .body {
+  display: flex;
+  padding-top: 2rem;
+}
+header .body nav ul {
+  display: flex;
+  list-style-type: none;
+}
+.nav {
+  margin-left: auto;
+}
+.main-content {
+  width: 1170px;
+  margin-left: auto;
+  margin-right: auto;
+}
+nav a {
+  color: black;
+  margin: 0 3rem;
+}
+.action .btn {
+  color: white;
+  padding: 1rem 2rem;
+  background-color: black;
+  border-radius: 2rem;
+}
+.introduce {
+  margin-top: 5rem;
+  display: flex;
+  align-items: center;
+}
+.introduce img {
+  margin-right: 7rem;
+}
+.introduce .content h1 {
+  font-size: 5.5rem;
+  margin-bottom: 3rem;
+}
+.introduce .content p {
+  font-size: 2rem;
+  margin-bottom: 3rem;
+}
+.introduce .content .button {
+  display: flex;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+.introduce .content .button > a {
+  padding: 1.5rem 2.5rem;
+  background-color: #ffb900;
+  border-radius: 3rem;
+  color: white;
+}
+.introduce .content .button .watchvideo {
+  display: flex;
+  align-items: center;
+}
+.introduce .content .button .watchvideo img {
+  margin-top: 1rem;
+  margin-right: 0px;
+}
+.introduce .content .button .watchvideo a {
+  font-weight: 700;
+  color: black;
+}
+.introduce .content strong {
+  font-size: 5rem;
+  margin: 0 2rem;
+}
