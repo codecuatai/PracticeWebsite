@@ -108,7 +108,7 @@ let Bai4 = (message, targerWord = "tôi") => {
 function Bai5(message) {
   let letters = "";
   let number = "";
-  for (let i = 0; message.length; i++) {
+  for (let i = 0; i < message.length; i++) {
     let char = message[i];
     if (isNaN(char)) {
       letters += char;
