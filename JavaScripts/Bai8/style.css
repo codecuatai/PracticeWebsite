@@ -20,3 +20,8 @@ body {
 b {
   display: none;
 }
+
+.newClass {
+  background-color: yellow;
+  color: red;
+}

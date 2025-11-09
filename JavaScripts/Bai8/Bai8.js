@@ -75,3 +75,13 @@ Object.assign(heading.style, {
   fontSize: "50px",
   color: "Black",
 });
+
+let element = document.getElementById("myElement");
+element.classList.add("newClass");
+console.log(element.classList.contains("newClass"));
+element.classList.remove("newClass");
+
+let element1 = document.createElement("p");
+element1.innerHTML = "Tạo element bằng createElement nè";
+element.append(element1);
+console.log(element);
