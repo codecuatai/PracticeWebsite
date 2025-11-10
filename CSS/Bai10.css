@@ -1,0 +1,133 @@
+.box {
+  background-color: blue;
+  width: clamp(300px, 100%, 1170);
+  height: 300px;
+}
+
+/* @media (max-width: 600px), (min-width: 1000px) {
+  .box {
+    background-color: red;
+    width: 500px;
+    height: 500px;
+  }
+} */
+
+@media (min-width: 1601px) {
+  .box {
+    background-color: purple;
+  }
+}
+@media (max-width: 1600px), (min-width: 1201) {
+  .box {
+    background-color: green;
+  }
+}
+@media (max-width: 1200px), (min-width: 481) {
+  .box {
+    background-color: chocolate;
+  }
+}
+@media (max-width: 480px), (min-width: 319) {
+  .box {
+    background-color: yellow;
+  }
+}
+/* .btn {
+  width: 200px;
+  height: 40px;
+  background-color: green;
+  border: none;
+  cursor: pointer;
+
+  transition-duration: 1s;
+  transition-property: background-color;
+  transition-delay: 3s;
+
+  transition: all 0.5s 2s;
+  transition: color 1s 3s ease-in, background-color 1s 2s ease-in;
+}
+.btn:hover {
+  color: yellow;
+
+  background-color: red;
+} */
+button {
+  display: flex;
+  margin: 30px;
+  outline: none;
+  border: none;
+}
+.btn {
+  padding: 20px 40px;
+  font-weight: 600;
+  border-radius: 90px;
+  color: aliceblue;
+  background-color: purple;
+  transition: all 0.5s linear;
+}
+.btn-1:hover {
+  transform: translate(0, -15px);
+}
+.btn-2:hover {
+  background: orange;
+}
+.btn-3 {
+  position: relative;
+  overflow: hidden;
+}
+.btn-3::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 0;
+  background: orangered;
+  transition: width 0.5s linear;
+}
+.btn-3:hover::after {
+  width: 100%;
+}
+span {
+  position: relative;
+  z-index: 1;
+}
+
+.btn-4 {
+  position: relative;
+  overflow: hidden;
+}
+.btn-4::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 0;
+  background: orangered;
+  transition: width 0.5s linear;
+}
+.btn-4:hover::after {
+  left: 0;
+  width: 100%;
+}
+
+.box1 {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  color: yellow;
+  margin: 100px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation: spin_element 1s;
+}
+@keyframes spin_element {
+  from {
+    rotate: 0;
+  }
+  to {
+    rotate: 360deg;
+  }
+}
